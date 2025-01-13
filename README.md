@@ -16,7 +16,7 @@ A Python package that formats and beautifies XML strings with HTML entity handli
 You can install the package directly from GitHub using pip:
 
 ```bash
-pip install git+https://github.com/YashKabra/decoder-package.git
+pip install xml-formatter-plus
 ```
 
 ## Usage 💻
@@ -25,13 +25,13 @@ pip install git+https://github.com/YashKabra/decoder-package.git
 
 ```bash
 # Basic usage
-xml-formatter "your_xml_string_here"
+xml_formatter "your_xml_string_here"
 
 # With verbose logging
-xml-formatter -v "your_xml_string_here"
+xml_formatter -v "your_xml_string_here"
 
 # Interactive mode (if no input string provided)
-xml-formatter
+xml_formatter
 ```
 
 ### Python API
